@@ -1,0 +1,46 @@
+body{
+    background-color:lightgray;
+}
+header{
+    height: 50vh;
+    min-height: 200px;
+    background-position: 70% 70%;
+    background-size: cover;
+    background-image: url("image/IMG20211114170150.jpg");
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 22px;
+}
+.d-flex  .btn-outline-light  .text-light:hover{
+    text-decoration: gray;
+
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+}
+span{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    font-family: 'Times New Roman', Times, serif;   
+}
+
+@media only screen and (max-width:600px){
+    header{
+        background-position: 30% 33%;
+    }
+}
+
+
+ 

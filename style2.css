@@ -1,0 +1,44 @@
+body{
+    background-color:lightgray;
+}
+header{
+    height: 50vh;
+    min-height: 200px;
+    background-position: 60% 60%;
+    background-size: cover;
+    background-image: url("image/gambar2.jpg");
+}
+.text-center {
+    margin-top: 5%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 22px;
+}
+.d-flex  .btn-outline-light  .text-light:hover{
+    text-decoration: gray;
+
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+}
+h4{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+     font-family: 'Times New Roman', Times, serif;   
+}
+
+@media only screen and (max-width:600px){
+    header{
+        background-position: 30% 33%;
+    }
+}
+
+
+ 
